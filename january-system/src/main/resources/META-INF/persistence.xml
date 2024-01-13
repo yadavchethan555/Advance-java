@@ -1,0 +1,20 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="x-workz">
+        <properties>
+<!--            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"></property>-->
+<!--            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_Super_hero"></property>-->
+<!--            <property name="javax.persistence.jdbc.user" value="root"></property>-->
+<!--            <property name="javax.persistence.jdbc.password" value="mysql@12345#"></property>-->
+
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"></property>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa_toy"></property>
+            <property name="javax.persistence.jdbc.user" value="root"></property>
+            <property name="javax.persistence.jdbc.password" value="mysql@12345#"></property>
+        </properties>
+    </persistence-unit>
+</persistence>
+
+
+
+
+<!--// Goto directry - file- persistance.xml-->
